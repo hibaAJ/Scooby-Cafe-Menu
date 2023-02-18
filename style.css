@@ -1,8 +1,68 @@
-header{
-    display: flex;
-    justify-content: center;
-}
+body::after {
+    content: "";
+    background: url(Assets/scooby.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
 .menu{
-    background-color: aquamarine;
+    width: 80%;
+    background-color: rgba(127, 210, 255, 0.863);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
     max-width: 500px;
+}
+h1, h2, p{
+    text-align: center;
+}
+
+h1, h2{
+    font-family: Impact;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+
+.established{
+    font-style: italic;
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+hr{
+    height: 2px;
+    background-color: beige;
+    border-color: beige;
+}
+
+.item p{
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+}
+
+.flavor, .dessert{
+    text-align: left;
+    width: 75%
+}
+
+.price{
+    text-align: right;
+    width: 25%;
 }
